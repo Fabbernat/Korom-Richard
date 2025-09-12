@@ -1,4 +1,4 @@
-const tagokMagassagai = {
+const csoport = {
     "Csőke Zalán": { height: 191 },
   "Fekete Zente": { height: 177 },
   "Fábián Bernát": { height: 195 },
@@ -17,9 +17,9 @@ function main() {
   let osszeg = 0;
   let length = 0;
 
-  for (const key in tagokMagassagai) {
-    if (tagokMagassagai[key].height !== undefined) {
-      osszeg += tagokMagassagai[key].height;
+  for (const key in csoport) {
+    if (csoport[key].height !== undefined) {
+      osszeg += csoport[key].height;
       length++;
     }
   }
